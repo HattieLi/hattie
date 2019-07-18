@@ -11,7 +11,7 @@ buffer.py 文件读写缓冲机制演示
 f = open('test','w',1)  # 1表示行缓冲
 
 while True:
-    data = input(">>")
+    data = input("消息>>")
     if not data:
         break
     f.write(data)
